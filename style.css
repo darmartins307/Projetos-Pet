@@ -1,0 +1,209 @@
+
+/* Resetar a página */
+* { 
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Cor a Logo do site */
+
+ h2 {
+     color: white;
+ }
+
+/* Alterando as propriedades tamanho da font, estilo/decoracao  */
+
+li, a, button { 
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Alinhando os itens no centro com Justify e align-content e alterando o fundo */
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 10%;
+    background-color: black;
+}
+
+/* Retirando Estilo de lista */
+.links { 
+    list-style: none;
+}
+
+/* Alinhando a lista um ao lado do outro e colocando pointer para aparecer mouse de clique*/
+
+.links li { 
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+/* Colocando alteração de item ao passar o mouse por cima*/
+
+li:hover { 
+    color: rgba(0,136,169,1);
+    transition-duration: 00.3s;
+}
+
+/* alterando propriedades do botão, cor, bordar arredondada, pointer e deixando a transição mais lenta*/
+button { 
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+/* Iniciando a transição de cor ao passar o mouse*/
+button:hover { 
+    background-color: turquoise;
+}
+
+/* Cor ao letra, alterando tamanho e utilizando display flex para centralizar */
+h3 { 
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+/* alterando a margem para ficar um pouco abaixo*/
+#escolha { 
+    display: flex;
+    margin-top: 5%;
+}
+
+/* alterando a cor e o alinhamento*/
+.nav-escolha { 
+    background-color: rgb(0, 0, 0);
+    padding: 10px 10%;
+    
+}
+
+.animal1 { 
+    height: 22%;
+    width: 21%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 10px;
+   
+}
+
+.animal1:hover {
+    padding: 20px;
+    transition-duration: 00.3s; 
+
+}
+
+.service { 
+    width: 33%;
+    height: 33%;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    
+}
+
+.servicos { 
+    background-color: black;
+}
+
+.service:hover { 
+padding: 20px;
+transition-duration: 0.4s;
+}
+
+#ask { 
+text-align: center;
+font-size: 28px;
+color: white;
+}
+
+.apresenta { 
+    background-color: black;
+}
+
+#txt { 
+    margin-left: 450px;
+    text-align: center;
+    word-break: break-word;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.somos { 
+ background-color: white;
+}
+
+#cred { 
+   margin-left: 110px;
+   color: white;
+
+}
+
+#cred1 { 
+    margin-left: 500px;
+    color: white;
+    margin-top: 30px;
+}
+
+.icon1, .icon2, .icon3, .icon4 { 
+    text-align: center;
+    color: white;
+}
+
+#wpp { 
+    color:rgb(64, 185, 60)
+}
+
+#insta { 
+    color: rgb(153, 58, 148);
+}
+
+#fcbk { 
+    color: royalblue;
+}
+
+#lct { 
+    color: green;
+}
+
+#contact { 
+ font-size: 20px;
+    margin-left: 690px;
+    color: white;
+
+}
+
+footer { 
+    background-color: black;
+    
+}
+
+.footer { 
+    margin-top: 20px;
+}
+
+body { 
+    background-color: black;
+}
+
+a { 
+    color: white;
+}
+
+#credt { 
+    margin-top: 30px;
+}
