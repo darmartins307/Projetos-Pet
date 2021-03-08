@@ -1,0 +1,577 @@
+/* Resetar a página */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Cor a Logo do site */
+
+h2 {
+  color: white;
+}
+
+/* Alterando as propriedades tamanho da font, estilo/decoracao  */
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Alinhando os itens no centro com Justify e align-content e alterando o fundo */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+
+/* Retirando Estilo de lista */
+.links {
+  list-style: none;
+}
+
+/* Alinhando a lista um ao lado do outro e colocando pointer para aparecer mouse de clique*/
+
+.links li {
+  display: inline-block;
+  padding: 0px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+/* Colocando alteração de item ao passar o mouse por cima*/
+
+li:hover {
+  color: rgba(0, 136, 169, 1);
+  transition-duration: 00.3s;
+}
+
+/* alterando propriedades do botão, cor, bordar arredondada, pointer e deixando a transição mais lenta*/
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+/* Iniciando a transição de cor ao passar o mouse*/
+button:hover {
+  background-color: turquoise;
+}
+
+/* Cor ao letra, alterando tamanho e utilizando display flex para centralizar */
+h3 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+/* alterando a margem para ficar um pouco abaixo*/
+#escolha {
+  display: flex;
+  margin-top: 5%;
+}
+
+/* alterando a cor e o alinhamento*/
+.nav-escolha {
+  background-color: rgb(0, 0, 0);
+  padding: 10px 10%;
+}
+
+/* Alterando as propriedades de imagem do animal*/
+
+.animal1 {
+  height: 22%;
+  width: 21%;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+
+.animal2 {
+  height: 22%;
+  width: 23%;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+
+.animal3 {
+  height: 16%;
+  width: 23%;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+
+/* Colocando animacao ao passar o mouse por cima*/
+
+.animal1:hover {
+  padding: 20px;
+  transition-duration: 00.3s;
+}
+
+.animal2:hover {
+  padding: 20px;
+  transition-duration: 00.3s;
+}
+
+.animal3:hover {
+  padding: 20px;
+  transition-duration: 00.3s;
+}
+/*Ajustando as propriedades de imagem dos servicos*/
+
+.service1 {
+  width: 25%;
+  border-radius: 5px;
+}
+
+.service2 {
+  width: 28%;
+  border-radius: 5px;
+}
+
+.service3 {
+  width: 30%;
+  height: 20%;
+  border-radius: 5px;
+}
+
+/*Ajustando as propriedades de imagem dos servicos*/
+
+.service1:hover {
+  padding: 20px;
+  transition-duration: 0.3s;
+}
+
+.service2:hover {
+  padding: 20px;
+  transition-duration: 0.3s;
+}
+
+.service3:hover {
+  padding: 20px;
+  transition-duration: 0.3s;
+}
+
+/*Colocando a cor preta de fundo nas imagens*/
+
+.servicos {
+  background-color: black;
+  padding-left: 15%;
+}
+/*Animacao ao passar o mouse em cima das imagens de servicoes*/
+
+.service:hover {
+  padding: 20px;
+  transition-duration: 0.4s;
+}
+/* Alinhando o texto da pergunta do pet*/
+
+#ask {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+
+/*Colocando o fundo da pergunta todo preto*/
+.apresenta {
+  background-color: black;
+}
+
+/*Ajustando a localidade do texto da pergunta */
+
+#txt {
+  margin-left: 450px;
+  text-align: center;
+  word-break: break-word;
+  width: 500px;
+  margin-top: 20px;
+}
+/*Alterando a cor de fundo*/
+.somos {
+  background-color: white;
+}
+/*Alterando localidade do texto de cred*/
+#cred {
+  margin-left: 110px;
+  color: white;
+}
+
+/*Alterando localidade do texto de cred*/
+
+#cred1 {
+  margin-left: 500px;
+  color: white;
+  margin-top: 30px;
+}
+/* Alterando o local dos icones de contato*/
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  text-align: center;
+  color: white;
+}
+
+/* Alterando cor do icone */
+
+#wpp {
+  color: rgb(64, 185, 60);
+}
+/* Alterando cor do icone */
+
+#insta {
+  color: rgb(153, 58, 148);
+}
+
+/* Alterando cor do icone */
+
+#fcbk {
+  color: royalblue;
+}
+
+/* Alterando cor do icone */
+
+#lct {
+  color: green;
+}
+
+/* Alterando tamanho e localidade do texto de contato*/
+#contact {
+  font-size: 20px;
+  margin-left: 690px;
+  color: white;
+}
+
+/*Alterando fundo das formas de contato*/
+footer {
+  background-color: black;
+}
+/*Alinhando o fundo*/
+.footer {
+  margin-top: 20px;
+}
+
+/*Colocando o fundo da pagina de preto */
+
+body {
+  background-color: black;
+}
+
+/*Alterando cor da frase de contato*/
+
+a {
+  color: white;
+}
+
+/*Alinhando o cred*/
+
+#credt {
+  margin-top: 30px;
+}
+
+/* Responsividade do site */
+
+@media (max-width: 768px) {
+  .links {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+  #txt { 
+      margin-left: 5px;
+  }
+
+  .animal1, .animal2, .animal3{
+      margin-left: 20px;
+  }
+
+  #contact { 
+      margin-left: 230px;
+  }
+  #cred1 { 
+    font-size: 10px;
+    display: inline-block;
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+    padding-top: 3%;
+  }
+
+  #cred { 
+    margin-left: 1%;
+  }
+
+  header { 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20%;
+    
+  }
+}
+
+@media (max-width: 648px) and (min-width: 360px) {
+
+
+  header { 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10%;
+    
+  }
+
+  #escolh { 
+    margin-left: -3%;
+  }
+
+  #escolha { 
+    margin-left: 6%;
+  }
+
+  #txt { 
+    font-size: 20px;
+    text-align: center;
+    word-break: break-word;
+    width: 300px;
+    margin-left: 7%;
+  }
+
+  #contact { 
+    margin-left: 43%;
+  }
+
+  #credt { 
+    font-size: 10px;
+    text-align: center;
+    word-break: break-word;
+    width: 350px;
+  }
+
+  #cred1 { 
+    margin-right: 25%;
+  }
+}
+
+@media (max-width: 823px) and (min-width: 411px) {
+
+
+  header { 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-left: 15%;
+    
+  }
+
+  #escolh { 
+    margin-left: -3%;
+  }
+
+  #escolha { 
+    margin-left: 6%;
+  }
+
+  #txt { 
+    font-size: 20px;
+    text-align: center;
+    word-break: break-word;
+    width: 300px;
+    margin-left: 16%;
+  }
+
+  #contact { 
+    margin-left: 43%;
+  }
+
+  #social { 
+    text-align: center;
+  }
+
+  #credt { 
+    font-size: 10px;
+    text-align: center;
+    word-break: break-word;
+    width: 380px;
+    padding-left: 3%;
+  }
+
+  #cred1 { 
+    margin-right: 25%;
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 568px) and (min-width: 320px) {
+
+
+  header { 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-left: 7%;
+    
+  }
+
+  #escolh { 
+    margin-left: -3%;
+  }
+
+  #escolha { 
+    margin-left: 6%;
+  }
+
+  #txt { 
+    font-size: 20px;
+    text-align: center;
+    word-break: break-word;
+    width: 300px;
+    margin-left: 6%;
+  }
+
+  #contact { 
+    margin-left: 43%;
+  }
+
+  #social { 
+    text-align: center;
+  }
+
+  #credt { 
+    font-size: 10px;
+    text-align: center;
+    word-break: break-word;
+    width: 380px;
+    padding-left: 3%;
+  }
+
+  #cred1 { 
+    margin-right: 25%;
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 667px) and (min-width: 375px) {
+
+
+  header { 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-left: 15%;
+    
+  }
+
+  #escolh { 
+    margin-left: -3%;
+  }
+
+  #escolha { 
+    margin-left: 6%;
+  }
+
+  #txt { 
+    font-size: 20px;
+    text-align: center;
+    word-break: break-word;
+    width: 300px;
+    margin-left: 12%;
+  }
+
+  #contact { 
+    margin-left: 43%;
+  }
+
+
+  #social { 
+    text-align: center;
+  }
+
+  #credt { 
+    font-size: 10px;
+    text-align: center;
+    word-break: break-word;
+    width: 380px;
+    padding-left: 3%;
+  }
+
+  #cred1 { 
+    margin-right: 25%;
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 712px) and (min-width: 502px) {
+
+
+  header { 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-left: 22%;
+    
+  }
+
+  #escolh { 
+    margin-left: 2%;
+  }
+
+  #escolha { 
+    margin-left: 6%;
+  }
+
+  #txt { 
+    font-size: 20px;
+    text-align: center;
+    word-break: break-word;
+    width: 300px;
+    margin-left: 19%;
+  }
+
+  #contact { 
+    margin-left: 45%;
+  }
+
+  #social { 
+    text-align: center;
+  }
+
+  #credt { 
+    font-size: 10px;
+    word-break: break-word;
+    width: 380px;
+    margin-left:10%;
+  }
+
+  #cred { 
+    margin-left: 3%;
+  }
+  #cred1 { 
+    margin-right: 25%;
+    padding-top: 15%;
+  }
+}
+
+
+
+
+
+
+
+
